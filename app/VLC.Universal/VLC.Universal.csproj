@@ -352,7 +352,7 @@
     <PRIResource Include="Strings\sv-SE\Resources.resw" />
     <PRIResource Include="Strings\tr-TR\Resources.resw" />
     <PRIResource Include="Strings\uk-UA\Resources.resw" />
-    <PRIResource Include="Strings\en-US\Resources.resw"/>
+    <PRIResource Include="Strings\en-US\Resources.resw" />
     <None Include="VLC_WinRT.Universal_TemporaryKey.pfx" />
     <PRIResource Include="Strings\cs-CZ\Resources.resw" />
     <PRIResource Include="Strings\pt-PT\Resources.resw" />
@@ -1162,8 +1162,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="SQLite.UWP.2015, Version=3.22.0">
-      <Name>SQLite for Universal Windows Platform</Name>
+    <SDKReference Include="SQLite.WinRT, Version=3.22.0">
+      <Name>SQLite for Windows Runtime</Name>
     </SDKReference>
     <SDKReference Include="WindowsDesktop, Version=10.0.16299.0">
       <Name>Windows Desktop Extensions for the UWP</Name>
